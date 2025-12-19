@@ -1,0 +1,47 @@
+{
+    "name": "react-auto-error-boundary",
+    "main": "index.js",
+     "scripts": {
+        "start": "webpack serve --config config/webpack.dev.js --progress",
+        "build": "webpack --config config/webpack.prod.js",
+        "prod": "http-server ./dist -a localhost -p 8005 -o"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.26.0",
+        "@babel/plugin-transform-class-properties": "^7.25.9",
+        "@babel/plugin-transform-object-rest-spread": "^7.25.9",
+        "@babel/plugin-transform-arrow-functions": "^7.25.9",
+        "@babel/plugin-transform-async-to-generator": "^7.25.9",
+        "@babel/plugin-transform-runtime": "^7.25.9",
+        "@babel/preset-env": "^7.26.0",
+        "@babel/preset-react": "^7.26.3",
+        "babel-loader": "^9.2.1",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^12.0.2",
+        "cross-env": "^7.0.2",
+        "css-loader": "^7.1.2",
+        "css-minimizer-webpack-plugin": "^7.0.0",
+        "html-webpack-plugin": "^5.6.3",
+        "http-server": "^14.1.1",
+        "mini-css-extract-plugin": "^2.9.2",
+        "path": "^0.12.7",
+        "postcss-loader": "^8.1.1",
+        "postcss-preset-env": "^10.1.3",
+        "sass": "^1.83.0",
+        "sass-loader": "^16.0.4",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.97.1",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.0",
+        "webpack-merge": "^6.0.1"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.26.0",
+        "core-js": "^3.39.0",
+        "react": "19.0.1",
+        "react-dom": "19.0.1",
+        "react-hook-form": "^7.54.2",
+        "react-router-dom": "^7.1.1",
+        "whatwg-fetch": "^3.6.20"
+    }
+}
